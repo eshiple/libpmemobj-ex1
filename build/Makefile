@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named rw
-
-# Build rule for target.
-rw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rw
-.PHONY : rw
-
-# fast build rule for target.
-rw/fast:
-	$(MAKE) -f CMakeFiles/rw.dir/build.make CMakeFiles/rw.dir/build
-.PHONY : rw/fast
-
-#=============================================================================
 # Target rules for targets named cmake_test
 
 # Build rule for target.
@@ -135,6 +122,32 @@ cmake_test: cmake_check_build_system
 cmake_test/fast:
 	$(MAKE) -f CMakeFiles/cmake_test.dir/build.make CMakeFiles/cmake_test.dir/build
 .PHONY : cmake_test/fast
+
+#=============================================================================
+# Target rules for targets named libp_stuff
+
+# Build rule for target.
+libp_stuff: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libp_stuff
+.PHONY : libp_stuff
+
+# fast build rule for target.
+libp_stuff/fast:
+	$(MAKE) -f CMakeFiles/libp_stuff.dir/build.make CMakeFiles/libp_stuff.dir/build
+.PHONY : libp_stuff/fast
+
+#=============================================================================
+# Target rules for targets named lib2
+
+# Build rule for target.
+lib2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lib2
+.PHONY : lib2
+
+# fast build rule for target.
+lib2/fast:
+	$(MAKE) -f CMakeFiles/lib2.dir/build.make CMakeFiles/lib2.dir/build
+.PHONY : lib2/fast
 
 src/writer.o: src/writer.cpp.o
 
@@ -170,9 +183,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... rw"
 	@echo "... cmake_test"
+	@echo "... libp_stuff"
+	@echo "... edit_cache"
+	@echo "... lib2"
 	@echo "... src/writer.o"
 	@echo "... src/writer.i"
 	@echo "... src/writer.s"

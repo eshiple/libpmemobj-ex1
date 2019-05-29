@@ -3,4 +3,21 @@
 
 CMakeFiles/cmake_test.dir/src/writer.cpp.o: ../layout.h
 CMakeFiles/cmake_test.dir/src/writer.cpp.o: ../src/writer.cpp
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/action.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/action_base.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/atomic.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/atomic_base.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/base.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/ctl.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/iterator.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/iterator_base.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/lists_atomic.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/lists_atomic_base.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/pool.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/pool_base.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/thread.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/tx.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/tx_base.h
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: /usr/local/include/libpmemobj/types.h
 

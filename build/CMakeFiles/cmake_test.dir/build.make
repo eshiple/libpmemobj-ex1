@@ -91,6 +91,30 @@ cmake_test_EXTERNAL_OBJECTS =
 cmake_test: CMakeFiles/cmake_test.dir/src/writer.cpp.o
 cmake_test: CMakeFiles/cmake_test.dir/build.make
 cmake_test: ../layout.h
+cmake_test: /usr/local/include/libpmem.h
+cmake_test: /usr/local/include/libpmemblk.h
+cmake_test: /usr/local/include/libpmemlog.h
+cmake_test: /usr/local/include/libpmemobj.h
+cmake_test: /usr/local/include/libpmempool.h
+cmake_test: /usr/local/include/librpmem.h
+cmake_test: /usr/local/include/libvmem.h
+cmake_test: /usr/local/include/libvmmalloc.h
+cmake_test: /usr/local/include/libpmemobj/action.h
+cmake_test: /usr/local/include/libpmemobj/action_base.h
+cmake_test: /usr/local/include/libpmemobj/atomic.h
+cmake_test: /usr/local/include/libpmemobj/atomic_base.h
+cmake_test: /usr/local/include/libpmemobj/base.h
+cmake_test: /usr/local/include/libpmemobj/ctl.h
+cmake_test: /usr/local/include/libpmemobj/iterator.h
+cmake_test: /usr/local/include/libpmemobj/iterator_base.h
+cmake_test: /usr/local/include/libpmemobj/lists_atomic.h
+cmake_test: /usr/local/include/libpmemobj/lists_atomic_base.h
+cmake_test: /usr/local/include/libpmemobj/pool.h
+cmake_test: /usr/local/include/libpmemobj/pool_base.h
+cmake_test: /usr/local/include/libpmemobj/thread.h
+cmake_test: /usr/local/include/libpmemobj/tx.h
+cmake_test: /usr/local/include/libpmemobj/tx_base.h
+cmake_test: /usr/local/include/libpmemobj/types.h
 cmake_test: CMakeFiles/cmake_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cmake_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmake_test.dir/link.txt --verbose=$(VERBOSE)
