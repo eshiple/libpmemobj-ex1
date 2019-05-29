@@ -1,0 +1,33 @@
+[  0%] Built target rw
+[ 50%] Building CXX object CMakeFiles/cmake_test.dir/src/writer.cpp.o
+/home/eshiple/Documents/NVM/pmemobj/src/writer.cpp: In function ‘int main(int, char**)’:
+/home/eshiple/Documents/NVM/pmemobj/src/writer.cpp:24:10: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%9s", buf);
+     ~~~~~^~~~~~~~~~~~
+[100%] Linking CXX executable cmake_test
+CMakeFiles/cmake_test.dir/src/writer.cpp.o: In function `main':
+writer.cpp:(.text.startup+0x36): undefined reference to `pmemobj_create'
+writer.cpp:(.text.startup+0x51): undefined reference to `pmemobj_root'
+writer.cpp:(.text.startup+0x9a): undefined reference to `pmemobj_tx_errno'
+writer.cpp:(.text.startup+0xd0): undefined reference to `_pobj_cached_pool'
+writer.cpp:(.text.startup+0xe1): undefined reference to `pmemobj_pool_by_oid'
+writer.cpp:(.text.startup+0x107): undefined reference to `pmemobj_tx_add_range_direct'
+writer.cpp:(.text.startup+0x11a): undefined reference to `pmemobj_tx_process'
+writer.cpp:(.text.startup+0x11f): undefined reference to `pmemobj_tx_stage'
+writer.cpp:(.text.startup+0x13b): undefined reference to `_pobj_cached_pool'
+writer.cpp:(.text.startup+0x144): undefined reference to `_pobj_cache_invalidate'
+writer.cpp:(.text.startup+0x179): undefined reference to `pmemobj_tx_begin'
+writer.cpp:(.text.startup+0x1a1): undefined reference to `pmemobj_tx_stage'
+writer.cpp:(.text.startup+0x1c3): undefined reference to `pmemobj_tx_add_range_direct'
+writer.cpp:(.text.startup+0x1d5): undefined reference to `pmemobj_tx_process'
+writer.cpp:(.text.startup+0x1da): undefined reference to `pmemobj_tx_stage'
+writer.cpp:(.text.startup+0x1e9): undefined reference to `pmemobj_tx_end'
+writer.cpp:(.text.startup+0x200): undefined reference to `pmemobj_close'
+writer.cpp:(.text.startup+0x251): undefined reference to `pmemobj_tx_process'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmake_test.dir/build.make:95: recipe for target 'cmake_test' failed
+make[2]: *** [cmake_test] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/cmake_test.dir/all' failed
+make[1]: *** [CMakeFiles/cmake_test.dir/all] Error 2
+Makefile:83: recipe for target 'all' failed
+make: *** [all] Error 2
