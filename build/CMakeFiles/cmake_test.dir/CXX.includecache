@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//layout.h
+libpmemobj.h
+-
+
+/home/eshiple/Documents/NVM/pmemobj/src/writer.cpp
+stdio.h
+-
+string.h
+-
+libpmemobj.h
+-
+layout.h
+/home/eshiple/Documents/NVM/pmemobj/src/layout.h
+

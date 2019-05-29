@@ -1,0 +1,1 @@
+/usr/bin/c++   -lpmemobj -std=c++11 -O3  -rdynamic CMakeFiles/test1.dir/writer.cpp.o  -o test1 ../layout.h ../reader.cpp ../writer.cpp 
