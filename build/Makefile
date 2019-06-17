@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/eshiple/Documents/NVM/pmemobj
+CMAKE_SOURCE_DIR = /home/eshiple/Documents/NVM/libpmemobj-ex1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/eshiple/Documents/NVM/pmemobj/build
+CMAKE_BINARY_DIR = /home/eshiple/Documents/NVM/libpmemobj-ex1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles /home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eshiple/Documents/NVM/libpmemobj-ex1/build/CMakeFiles /home/eshiple/Documents/NVM/libpmemobj-ex1/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eshiple/Documents/NVM/libpmemobj-ex1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,43 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cmake_test
+# Target rules for targets named writer
 
 # Build rule for target.
-cmake_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cmake_test
-.PHONY : cmake_test
+writer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 writer
+.PHONY : writer
 
 # fast build rule for target.
-cmake_test/fast:
-	$(MAKE) -f CMakeFiles/cmake_test.dir/build.make CMakeFiles/cmake_test.dir/build
-.PHONY : cmake_test/fast
-
-#=============================================================================
-# Target rules for targets named libp_stuff
-
-# Build rule for target.
-libp_stuff: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libp_stuff
-.PHONY : libp_stuff
-
-# fast build rule for target.
-libp_stuff/fast:
-	$(MAKE) -f CMakeFiles/libp_stuff.dir/build.make CMakeFiles/libp_stuff.dir/build
-.PHONY : libp_stuff/fast
-
-#=============================================================================
-# Target rules for targets named lib2
-
-# Build rule for target.
-lib2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lib2
-.PHONY : lib2
-
-# fast build rule for target.
-lib2/fast:
-	$(MAKE) -f CMakeFiles/lib2.dir/build.make CMakeFiles/lib2.dir/build
-.PHONY : lib2/fast
+writer/fast:
+	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/build
+.PHONY : writer/fast
 
 src/writer.o: src/writer.cpp.o
 
@@ -155,7 +129,7 @@ src/writer.o: src/writer.cpp.o
 
 # target to build an object file
 src/writer.cpp.o:
-	$(MAKE) -f CMakeFiles/cmake_test.dir/build.make CMakeFiles/cmake_test.dir/src/writer.cpp.o
+	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/src/writer.cpp.o
 .PHONY : src/writer.cpp.o
 
 src/writer.i: src/writer.cpp.i
@@ -164,7 +138,7 @@ src/writer.i: src/writer.cpp.i
 
 # target to preprocess a source file
 src/writer.cpp.i:
-	$(MAKE) -f CMakeFiles/cmake_test.dir/build.make CMakeFiles/cmake_test.dir/src/writer.cpp.i
+	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/src/writer.cpp.i
 .PHONY : src/writer.cpp.i
 
 src/writer.s: src/writer.cpp.s
@@ -173,7 +147,7 @@ src/writer.s: src/writer.cpp.s
 
 # target to generate assembly for a file
 src/writer.cpp.s:
-	$(MAKE) -f CMakeFiles/cmake_test.dir/build.make CMakeFiles/cmake_test.dir/src/writer.cpp.s
+	$(MAKE) -f CMakeFiles/writer.dir/build.make CMakeFiles/writer.dir/src/writer.cpp.s
 .PHONY : src/writer.cpp.s
 
 # Help Target
@@ -183,10 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... cmake_test"
-	@echo "... libp_stuff"
+	@echo "... writer"
 	@echo "... edit_cache"
-	@echo "... lib2"
 	@echo "... src/writer.o"
 	@echo "... src/writer.i"
 	@echo "... src/writer.s"

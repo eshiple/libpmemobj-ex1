@@ -42,7 +42,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cmake_test.dir/DependInfo.cmake"
-  "CMakeFiles/libp_stuff.dir/DependInfo.cmake"
-  "CMakeFiles/lib2.dir/DependInfo.cmake"
+  "CMakeFiles/writer.dir/DependInfo.cmake"
   )

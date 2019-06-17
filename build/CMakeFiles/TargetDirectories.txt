@@ -1,5 +1,3 @@
-/home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles/rebuild_cache.dir
-/home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles/cmake_test.dir
-/home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles/libp_stuff.dir
-/home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles/edit_cache.dir
-/home/eshiple/Documents/NVM/pmemobj/build/CMakeFiles/lib2.dir
+/home/eshiple/Documents/NVM/libpmemobj-ex1/build/CMakeFiles/rebuild_cache.dir
+/home/eshiple/Documents/NVM/libpmemobj-ex1/build/CMakeFiles/writer.dir
+/home/eshiple/Documents/NVM/libpmemobj-ex1/build/CMakeFiles/edit_cache.dir

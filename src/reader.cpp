@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <libpmemobj.h>
-#include "layout.h"
+#include "../layout.h"
 
 int main(int argc, char* argv[])
 {

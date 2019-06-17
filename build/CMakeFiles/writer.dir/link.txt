@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/writer.dir/src/writer.cpp.o  -o writer -L/usr/local/lib -lpmemobj 
